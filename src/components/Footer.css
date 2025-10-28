@@ -1,0 +1,19 @@
+
+.footer-green {
+    background-color: #12372A;
+    color: white;
+    height: 90px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 30px;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}

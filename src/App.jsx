@@ -4,6 +4,7 @@ import Blog from "./components/Blog"
 import Book from "./components/Book"
 import Brands from "./components/Brands"
 import Choose from "./components/Choose"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Ourservices from "./components/Ourservices"
@@ -34,7 +35,7 @@ function App() {
           </main>
 
 
-
+          <Footer />
         </div>
 
     </>
