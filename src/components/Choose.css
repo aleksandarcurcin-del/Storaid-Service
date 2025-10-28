@@ -1,0 +1,41 @@
+
+.choose {
+    background-color: #FAF8EC;
+    
+}
+
+.choose-flex {
+    display: grid;
+    grid-template-columns: auto 650px;
+    justify-content: space-between;
+    padding-block: 80px;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+h3 {
+    font-size: 42px;
+    
+}
+
+.choose-box {
+    display: flex;
+    background-color: #C4C4C4;
+    width: 659px;
+    height: 424px;
+    border: 5px solid var(--about-border);
+    border-radius: 7px;
+}
+
+.choose-content {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.choose-right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
