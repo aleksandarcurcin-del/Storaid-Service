@@ -1,5 +1,6 @@
 
 import About from "./components/About"
+import Blog from "./components/Blog"
 import Book from "./components/Book"
 import Brands from "./components/Brands"
 import Choose from "./components/Choose"
@@ -27,6 +28,7 @@ function App() {
             <Choose />
             <Pricing />
             <Book />
+            <Blog />
           </main>
 
 

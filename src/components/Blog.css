@@ -1,0 +1,11 @@
+
+.blog {
+    padding-block: 80px;
+}
+
+.blog-text {
+    display: grid;
+    grid-template-columns: 550px 700px;
+    align-items: end;
+    gap: 30px;
+}
