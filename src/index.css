@@ -1,0 +1,70 @@
+:root{
+    --link: #12372A;
+    --link-hover: #F1C30C;
+    --button-color: #F1C30C;
+    --button-hover: #12372A;
+    --about-border: #e7e7e7;
+    --tile-border: #ECECEC;
+    --tile-border-hover: #F1C30C;
+}
+
+
+
+.p-white {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 80px;
+    color: #F1FFEA;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 52px;
+    color: #12372A;
+    
+}
+
+h4 {
+    font-size: 25px;
+    color: #F1C30C;
+}
+
+h5 {
+    font-size: 24px;
+    color: #12372A;
+}
+
+h6 {
+    font-size: 20px;
+    color: #12372A;
+}
+
+p {
+    color: #12372A;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100dvh;
+    
+    
+}
+
+
+.container--wide {
+    max-width: 1820px;
+    width: 100%;
+    margin-inline: auto;
+    
+}
+.container--narrow {
+    max-width: 1370px;
+    width: 100%;
+    margin-inline: auto;
+}

@@ -1,0 +1,55 @@
+.top-bar {
+   background-color: #12372A; 
+}
+
+.header-green {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+.header-left {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin-top: 10px;
+    
+
+}
+
+.header-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.header-lower {
+    margin-block: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+
+    
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: var(--link);
+    font-size: 18px;
+    font-weight: 600;
+    transition: color .2s ease;
+
+    &:hover {
+        color: var(--link-hover);
+    }
+}
