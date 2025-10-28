@@ -1,0 +1,11 @@
+.hero {
+    background-color: #12372ac2;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    gap: 8rem;
+    color: #FFFFFF;
+}
