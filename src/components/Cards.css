@@ -1,0 +1,73 @@
+.blog-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.cards-inner {
+    border-radius: 7px;
+    background-color: #12372A;
+    h6, p {
+        color: white;
+    }
+
+
+    .cardbox-inner {
+        margin: 1rem;
+        
+        
+        border-radius: 7px;
+
+        .blog-image {
+            max-width: 380px;
+        }
+    
+    }
+
+    &:hover {
+        background-color: #F1FFEA;
+        h6, p {
+            color: #12372A;
+        }
+
+
+
+    }
+}
+
+.read-more{
+    color:#F1C30C;                
+    text-decoration:none;
+    position:relative;
+    padding-right:1.2rem;        
+}
+
+.read-more::after{
+    content:"→";                  
+    position:absolute;
+    right:0;
+    top:50%;
+    translate:0 -50%;
+    
+}
+
+
+
+.calendar {
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+
+.calendar-icon {
+    position: relative;
+    bottom: 10px;
+}
+
+.card-content {
+    padding: 0 20px 40px 20px;
+}
+
