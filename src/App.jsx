@@ -1,5 +1,6 @@
 
 import About from "./components/About"
+import Book from "./components/Book"
 import Brands from "./components/Brands"
 import Choose from "./components/Choose"
 import Header from "./components/Header"
@@ -25,6 +26,7 @@ function App() {
             <Testimonials />
             <Choose />
             <Pricing />
+            <Book />
           </main>
 
 

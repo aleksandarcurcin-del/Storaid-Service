@@ -1,0 +1,25 @@
+
+.book-color {
+    height: 435px;
+    background-color: #12372ad8;
+}
+
+.book-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.book-text {
+    padding: 0 160px;
+    h3, p {
+        color: #FFFFFF;
+    }
+}
+
+.book-btn {
+    width: 128px;
+    height: 46px;
+}
