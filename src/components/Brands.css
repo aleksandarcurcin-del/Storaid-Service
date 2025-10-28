@@ -1,0 +1,14 @@
+
+.brands {
+    padding-top: 40px;
+}
+
+.brands-color {
+    background-color: #FAF8EC;
+}
+.brands-flex {
+    display: flex;
+    gap: 50px;
+    padding-block: 30px;
+    
+}
