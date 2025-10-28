@@ -8,6 +8,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Ourservices from "./components/Ourservices"
 import Pricing from "./components/Pricing"
+import Subscribe from "./components/Subscribe"
 import Testimonials from "./components/Testimonials"
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Pricing />
             <Book />
             <Blog />
+            <Subscribe />
           </main>
 
 

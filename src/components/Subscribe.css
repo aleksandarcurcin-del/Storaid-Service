@@ -1,0 +1,32 @@
+.subscribe {
+    background-color: #FAF8EC;
+    padding-block: 15px;
+}
+
+.subscribe-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe-right {
+    display: flex;
+    gap: 20px;
+}
+
+#email {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #F1C30C;
+    padding: 0 44px 0 44px;
+    width: 540px;
+    height: 60px;
+    
+
+}
+
+#email::placeholder {
+  color: #f1C30C;
+
+}
