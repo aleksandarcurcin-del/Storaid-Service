@@ -1,19 +1,12 @@
-.aboutus-color {
+.title-component {
     background-color: #12372ad8;
     height: 467px;
 }
 
-.aboutus {
+.title-component-text {
     padding-top: 9rem;
     p {
         color: #F1FFEA;
     }
-    
 }
 
-.white-bg {
-    background-color: white;
-}
-
-
-    

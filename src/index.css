@@ -68,3 +68,9 @@ p {
     width: 100%;
     margin-inline: auto;
 }
+
+
+.testimonials-background {
+    background-color: #12372ad8;
+    height: 669px;
+}
