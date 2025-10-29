@@ -25,7 +25,6 @@ function Home() {
       <Pricing />
       <Book />
       <Blog />
-      <Subscribe />
     </>
   )
 }
