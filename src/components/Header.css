@@ -53,3 +53,8 @@
         color: var(--link-hover);
     }
 }
+
+.nav-link.active {
+  color: #f1c30c;      
+  
+}

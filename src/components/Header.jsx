@@ -1,6 +1,6 @@
 import './Header.css'
 import Buttons from "./Buttons"
-
+import { NavLink, Link } from "react-router-dom";
 
 
 
@@ -36,12 +36,14 @@ function Header() {
       </div>
         <div className="container--wide">
           <div className="header-lower">
-            <img className="header-logo" src="/images/headerlogo.svg" alt="" />
+            <Link to="/">
+              <img className="header-logo" src="/images/headerlogo.svg" alt="" />
+            </Link>
             <div className="header-nav">
-              <a href="#">Home</a>
-              <a href="#">About Us</a>
-              <a href="#">Services</a>
-              <a href="#">Contact Us</a>
+              <NavLink className="nav-link" to="/">Home</NavLink>
+              <NavLink className="nav-link" to="/aboutus">About Us</NavLink>
+              <NavLink className="nav-link" to="/services">Services</NavLink>
+              <NavLink className="nav-link" to="/contactus">Contact Us</NavLink>
             </div>
             <div className="header-btn">
               <Buttons text="Book Now"/>
