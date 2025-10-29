@@ -5,6 +5,7 @@ import Services from "./pages/Services"
 import Contactus from "./pages/Contactus"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
+import Subscribe from "./components/Subscribe"
 
 
 
@@ -21,7 +22,8 @@ function App() {
             <Route path="/aboutus" element={<Aboutus /> } />
             <Route path="/services" element={<Services /> } />
             <Route path="/contactus" element={<Contactus /> } />
-          </Routes>          
+          </Routes>
+          <Subscribe />         
         </main>
         <Footer />
       </div>

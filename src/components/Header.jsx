@@ -1,6 +1,6 @@
 import './Header.css'
 import Buttons from "./Buttons"
-
+import { NavLink, Link} from "react-router-dom"
 
 
 

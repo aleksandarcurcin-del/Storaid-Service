@@ -2,7 +2,7 @@ import React from 'react'
 import './Aboutus.css'
 import About from '../components/About'
 import Brands from '../components/Brands'
-import Subscribe from '../components/Subscribe'
+
 
 
 
@@ -115,7 +115,6 @@ function Aboutus() {
             </div>
         </div>
       </section>
-      <Subscribe />
       
     </> 
   )
