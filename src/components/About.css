@@ -19,8 +19,10 @@
     flex-direction: row;
     text-align: center;
     gap: 20px;
-    color: white;
     padding: 25px 65px ;
+    p {
+        color: white;
+    }
 }
 
 .box-2 {
