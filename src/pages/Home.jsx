@@ -12,6 +12,7 @@ import Blog from '../components/Blog'
 import Subscribe from '../components/Subscribe'
 
 
+
 function Home() {
   return (
     <>
