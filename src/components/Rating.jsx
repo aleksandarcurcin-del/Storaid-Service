@@ -4,7 +4,7 @@ import './Testimonials.css'
 function Rating({ item }) {
   return (
         <div className="review">
-            <img className="stars" src={item.rating} alt="" />
+            <div className="stars">{item.ratings}/5</div>
             <p>{item.comment}</p>
             <div className="review-bottom">
                 <div className="circle"><img className="circle-inner" src={item.avatarUrl} alt="" /></div>
