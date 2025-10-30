@@ -5,15 +5,15 @@ import Rating from './Rating'
 function Testimonials() {
     const [reviewItems, setReviewItems] = useState([])
     
-    const fetchData = async () => {
-        const res = await fetch('https://win25-jsf-assignment.azurewebsites.net/api/blogs')
+    useEffect(() => {
+        (async () => {
+        const res = await fetch('https://win25-jsf-assignment.azurewebsites.net/api/testimonials')
         const data = await res.json()
         setReviewItems(data)
-    }
-
-    useEffect(() => {
-        fetchData()
+        })()
     }, [])
+
+
 
   return (
     <section className="testimonials">
