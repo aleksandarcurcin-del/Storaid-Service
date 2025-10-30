@@ -34,10 +34,14 @@
 }
 
 .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: #ffffff;
     border-radius: 12px;
-    padding: 45px 15px;
-    
+    padding: 45px 22px 20px;
+    width: 437px;
+    height: 295px;
 }
 
 
@@ -47,8 +51,7 @@
 }
 
 .review-bottom {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
+    display: flex;
     align-items: center;
     gap: 20px;
     padding-top: 20px;
