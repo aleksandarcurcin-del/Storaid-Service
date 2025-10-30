@@ -10,7 +10,7 @@ function Subscribe() {
                     <p>Subscribe to our newsletter to receive early discount offers, updates and info</p>
                 </div>
                 <div className="subscribe-right">
-                    <label For="email"></label>
+                    <label htmlFor="email"></label>
                     <input id='email' type="email" placeholder='Enter your email' />
                     <button className="subscribe-btn">Submit</button>
                 </div>
