@@ -7,7 +7,7 @@ function Cards({ item }) {
     <div className="cards-inner">
       <div className="card-box">
         <div className="cardbox-inner">
-          <img className="blog-image" src={item.imageURL} />
+          <img className="blog-image" src={item.imageUrl} />
         </div>
         <div className="card-content">
           <div className="calendar">
