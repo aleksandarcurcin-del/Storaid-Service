@@ -29,7 +29,7 @@ function Blog() {
                     
                     <div className="blog-cards">
                         {
-                            cardItems.map((item) => (<Cards key={item} item={item} />))
+                            cardItems.map((item) => (<Cards key={item.id} item={item} />))
                         }
                     </div>
                     
