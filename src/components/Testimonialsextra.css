@@ -1,0 +1,60 @@
+
+
+.testimonials-flex {
+    display: flex;
+    flex-direction: column;
+    padding-block: 90px;
+    
+}
+
+.testimonials-text {
+
+    text-align: center;
+    
+    h3, p {
+        color: #FFFFFF;
+    }
+}
+
+.testimonials-review {
+    display: flex;
+    
+    gap: 30px;
+    
+    
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 45px 22px 20px;
+    width: 437px;
+    height: 295px;
+}
+
+
+.stars {
+    position: relative;
+    bottom: 30px;
+}
+
+.review-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+
+    .circle-inner {
+        border-radius: 50%;
+    }
+}
