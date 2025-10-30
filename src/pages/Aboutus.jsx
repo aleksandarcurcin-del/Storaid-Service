@@ -2,45 +2,28 @@ import React from 'react'
 import './Aboutus.css'
 import About from '../components/About'
 import Brands from '../components/Brands'
-
+import Testimonialsextra from '../components/Testimonialsextra'
 
 
 
 function Aboutus() {
   return (
     <>
-      <div className="aboutus-color">
+        <div className="aboutus-color">
         <div className="container">
-          <div className="aboutus">
+            <div className="aboutus">
             <h1>About Us</h1>
             <p className="aboutus-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-          </div>
-        </div>
-      </div>
-      
-      <About />
-      <Brands />  
-
-      <section className="testimonials">
-        <div className="testimonials-background">
-          <div className="container">
-            <div className="testimonials-flex">
-                <div className="testimonials-text">
-                    <h4>Testimonials</h4>
-                    <h3>See What Our Client Have to Say</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.</p>
-                </div>
-                <div className="testimonials-review">
-                    {
-                        reviewItems.map((item) => (<Rating key={item.id} item={item} />))
-                    }
-                </div>
             </div>
-          </div>
         </div>
-      </section>
+        </div>
+        
+        <About />
+        <Brands />  
+        <Testimonialsextra />
 
-      <section className="choose-background">
+
+        <section className="choose-background">
         <div className="container">
             <div className="choose-flex">
                 <div className="choose-left">
@@ -81,8 +64,9 @@ function Aboutus() {
                 </div>
             </div>
         </div>
-      </section>
-      
+        </section>
+
+        
     </> 
   )
 }
