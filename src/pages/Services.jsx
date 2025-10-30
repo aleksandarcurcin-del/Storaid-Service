@@ -2,7 +2,7 @@ import React from 'react'
 import './Services.css'
 import Titlecomponent from '../components/Titlecomponent'
 import Ourservices from '../components/Ourservices'
-import Testimonials from '../components/Testimonials'
+import Faq from '../components/Faq'
 
 function Services() {
   return (
@@ -60,6 +60,7 @@ function Services() {
             </div>
         </div>
     </section>
+    <Faq />
     
     </>
   )
