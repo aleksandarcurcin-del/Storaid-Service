@@ -1,6 +1,6 @@
 import './Blog.css'
 import Cards from "./Cards"
-import React, {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react'
 
 function Blog() {
     const [cardItems, setCardItems] = useState([])
@@ -29,7 +29,7 @@ function Blog() {
                     
                     <div className="blog-cards">
                         {
-                            cardItems.map((item) => (<cardItems key={item} item={item} />))
+                            cardItems.map((item) => (<Cards key={item} item={item} />))
                         }
                     </div>
                     
