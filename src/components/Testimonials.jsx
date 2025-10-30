@@ -1,6 +1,20 @@
 import './Testimonials.css'
+import { useState, useEffect } from 'react'
+import Rating from './Rating'
 
 function Testimonials() {
+    const [reviewItems, setReviewItems] = useState([])
+    
+    const fetchData = async () => {
+        const res = await fetch('https://win25-jsf-assignment.azurewebsites.net/api/blogs')
+        const data = await res.json()
+        setReviewItems(data)
+    }
+
+    useEffect(() => {
+        fetchData()
+    }, [])
+
   return (
     <section className="testimonials">
         <div className="testimonials-bg">
@@ -12,42 +26,9 @@ function Testimonials() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.</p>
                     </div>
                     <div className="testimonials-review">
-                        <div className="review-1">
-                            <img className="stars" src="/images/fivestars.svg" alt="" />
-                            <p>The facility is clean, secure, and easy to access. I felt confident leaving my belongings here knowing they were protected and well cared for.</p>
-                            <div className="review-bottom">
-                                <div className="circle"><img className="circle-inner" src="https://win25jsfstorage.blob.core.windows.net/images/testimonials/sophie-turner.png" alt="" /></div>
-                                <div className="person">
-                                    <h6>Sophie Turner</h6>
-                                    <p className="customer">Homeowner</p>
-                                </div>
-                                <img src="/images/testimonialsicon.svg" alt="" />
-                            </div>
-                        </div>
-                        <div className="review-2">
-                            <img className="stars" src="/images/fivestars.svg" alt="" />
-                            <p>Renting a storage unit was seamless from start to finish. The staff was professional, and the flexible options made it perfect for my growing business needs.</p>
-                            <div className="review-bottom">
-                                <div className="circle"><img className="circle-inner" src="https://win25jsfstorage.blob.core.windows.net/images/testimonials/liam-anderson.png" alt="" /></div>
-                                <div className="person">
-                                    <h6>Liam Anderson</h6>
-                                    <p className="customer">Small Business Owner</p>
-                                </div>
-                                <img src="/images/testimonialsicon.svg" alt="" />
-                            </div>
-                        </div>
-                        <div className="review-3">
-                            <img className="stars" src="/images/fourstars.svg" alt="" />
-                            <p>I needed a short-term storage solution during my move, and this place was ideal. Affordable pricing and great customer service made everything stress-free.</p>
-                            <div className="review-bottom">
-                                <div className="circle"><img className="circle-inner" src="https://win25jsfstorage.blob.core.windows.net/images/testimonials/emily-carter.png" alt="" /></div>
-                                <div className="person">
-                                    <h6>Emily Carter</h6>
-                                    <p className="customer">Student</p>
-                                </div>
-                                <img src="/images/testimonialsicon.svg" alt="" />
-                            </div>
-                        </div>
+                        {
+                            reviewItems.map((item) => (<Rating key={item.id} item={item} />))
+                        }
                     </div>
                 </div>
             </div>
