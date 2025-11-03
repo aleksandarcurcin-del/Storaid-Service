@@ -3,6 +3,7 @@ import './Services.css'
 import Titlecomponent from '../components/Titlecomponent'
 import Ourservices from '../components/Ourservices'
 import Testimonialsextra from '../components/Testimonialsextra'
+import Book from '../components/Book'
 
 
 function Services() {
@@ -11,7 +12,7 @@ function Services() {
             <Titlecomponent Title="Services" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
             <Ourservices />
             <Testimonialsextra />
-
+            <Book />
         </>
     )
 }
