@@ -4,6 +4,7 @@ import Titlecomponent from '../components/Titlecomponent'
 import Ourservices from '../components/Ourservices'
 import Testimonialsextra from '../components/Testimonialsextra'
 import Faq from '../components/Faq'
+import Book from '../components/Book'
 
 
 function Services() {
@@ -13,7 +14,7 @@ function Services() {
             <Ourservices />
             <Testimonialsextra />
             <Faq />
-
+            <Book />
         </>
     )
 }
