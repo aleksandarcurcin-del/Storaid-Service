@@ -1,0 +1,99 @@
+.git {
+    padding-block: 80px;
+}
+
+
+.git-flex {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.git-right {
+    border-radius: 7px;
+    background-color: #FAF8EC;
+    width: 666px;
+    height: 641px;
+}
+
+.git-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 1.5rem;
+}
+
+.direction {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.direction2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    
+
+}
+.direction3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.direction-big {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.git-box {
+    display: flex;
+    background-color: #C4C4C4;
+    height: 367px;
+    width: 664px;
+}
+
+::placeholder {
+    color: #f1C30C;
+}
+
+#text {
+    height: 58px;
+    padding: 10px;
+    border: 1px solid #F1C30C;
+    border-radius: 5px;
+}
+#email2 {
+    height: 58px;
+    padding: 10px;
+    border: 1px solid #F1C30C;
+    border-radius: 5px;
+}
+#telephone {
+    height: 58px;
+    padding: 10px;
+    border: 1px solid #F1C30C;
+    border-radius: 5px;
+}
+#subject {
+    height: 58px;
+    padding: 10px;
+    border: 1px solid #F1C30C;
+    border-radius: 5px;
+}
+
+#comment {
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #F1C30C;
+    border-radius: 5px;
+}
+
+.pop-up {
+    h1, p {
+        color: #12372A;
+    }
+
+    
+}
