@@ -1,5 +1,5 @@
 .git {
-    padding-block: 80px;
+    padding-top: 80px;
 }
 
 
@@ -13,7 +13,7 @@
     border-radius: 7px;
     background-color: #FAF8EC;
     width: 666px;
-    height: 641px;
+    
 }
 
 .git-form {
@@ -61,39 +61,92 @@
 #text {
     height: 58px;
     padding: 10px;
-    border: 1px solid #F1C30C;
-    border-radius: 5px;
 }
+
 #email2 {
     height: 58px;
     padding: 10px;
-    border: 1px solid #F1C30C;
-    border-radius: 5px;
+
 }
-#telephone {
+#phonenumber {
     height: 58px;
     padding: 10px;
-    border: 1px solid #F1C30C;
-    border-radius: 5px;
+
 }
 #subject {
     height: 58px;
     padding: 10px;
-    border: 1px solid #F1C30C;
-    border-radius: 5px;
+
 }
 
 #comment {
     height: 150px;
     padding: 10px;
-    border: 1px solid #F1C30C;
-    border-radius: 5px;
 }
 
 .pop-up {
-    h1, p {
+    display: flex;
+    flex-direction: column;
+    padding-block: 5rem;
+    align-items: center;
+    gap: 30px;
+    h2 {
         color: #12372A;
+    }
+    .submitted-btn {
+        width: 100px;
+    }
+}
+
+.git-btn {
+    max-width: 156px;
+}
+
+.error {
+  color: #d93025;
+}
+
+input, textarea {
+    border: 1px solid #F1C30C; 
+    border-radius: 5px;
+    outline: none;
+    &:focus {
+        outline: none;
+        border: 1px solid black;
+        display: block;
+    }
+    &:valid {
+        outline: none;
+        border: 1px solid #F1C30C;
+        background-color: #ffffff;
+
+        
+    }
+    &:user-invalid {
+        outline: none;
+        
+        border: 1px solid #f10c0c;
+        background-color: #ffffff;
+        display: block;
+        &:focus {
+            outline: none;
+            border: 1px solid black;
+            display: block;
+        }
     }
 
     
+
 }
+
+
+
+
+
+
+
+
+
+
+
+

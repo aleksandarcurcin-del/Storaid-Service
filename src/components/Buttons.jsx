@@ -1,12 +1,12 @@
 import './Buttons.css'
 
-function Buttons({ className, text }) {
+function Buttons({ className = '', text, ...props }) {
   return (
-    <div className={`${className}`}>
-        <button className="btn">
-            {text}
-        </button>
-    </div>
+    
+    <button className={className} {...props}>
+        {text}
+    </button>
+    
   )
 }
 

@@ -4,19 +4,36 @@ import { useState } from 'react'
 
 function Git() {
     const [formContent, setFormContent] = useState({ name: '', email: '', phoneNumber: '', subject: '', comment: '' })
+    const [errors, setErrors] = useState({})
     const [submitted, setSubmitted] = useState(false)
 
     const handleChange = (e) => {
         const { name, value } = e.target
         setFormContent({...formContent, [name]: value})
+
+        if(value.trim() === '') {
+            setErrors(prevErrors => ({...prevErrors, [name]: `The ${name} field is required.`}))
+        } else {
+            setErrors(prevErrors => ({...prevErrors, [name]: ''}))
+        }
     }
 
-    const handleOk = () => {
-        setSubmitted(false)
-    }
+
     
     const handleSubmit = async (e) => {
         e.preventDefault()
+
+        const newErrors = {}
+        Object.keys(formContent).forEach(field => {
+            if(formContent[field].trim() === '') {
+                newErrors[field] = `The ${field} field is required.`
+            }
+        })
+
+        if(Object.keys(newErrors).length > 0) {
+            setErrors(newErrors)
+            return
+        }
 
         const res = await fetch('https://win25-jsf-assignment.azurewebsites.net/api/contact', {
             method: 'post',
@@ -34,13 +51,17 @@ function Git() {
         }
     }
 
+
+    const handleOk = () => {
+        setSubmitted(false)
+    }
+
     if (submitted) {
         return (
             <div className="container">
                 <div className="pop-up">
-                    <h1>Thank you for your comment!</h1>
-                    <p>We will return with information as soon as possible</p>
-                    <Buttons type="submit" className="submitted" onClick={handleOk} text="OK"/>
+                    <h2>Thank you for your comment!</h2>                   
+                    <Buttons type="submit" className="submitted-btn" onClick={handleOk} text="OK"/>
                 </div>
             </div>
         )
@@ -58,33 +79,7 @@ function Git() {
                         <div className="git-box"></div>
                     </div>
                     <div className="git-right">
-                        <form onSubmit={handleSubmit} noValidate>
-                            <div className="git-form">
-                                <div className="direction">
-                                    Your Name
-                                    <input id="text" type="text" name="name" value={formContent.name} onChange={handleChange} required placeholder="Your name"/>
-                                </div>
-                                <div className="direction2">
-                                    <div className="direction3">
-                                        Email
-                                        <input id="email2" type="email" name="email" value={formContent.email} onChange={handleChange} required placeholder="Email"/>
-                                    </div>
-                                    <div className="direction3">
-                                        Telephone
-                                        <input id="telephone" type="tel" name="phoneNumber" value={formContent.phoneNumber} onChange={handleChange} required placeholder="Telephone"/>
-                                    </div>
-                                </div>
-                                <div className="direction">
-                                    Subject
-                                    <input id="subject" type="subject" name="subject" value={formContent.subject} onChange={handleChange} required placeholder="Subject"/>
-                                </div>
-                                <div className="direction-big">
-                                        Comments / Questions
-                                        <textarea id="comment" name="comment" value={formContent.comment} onChange={handleChange} required placeholder="Comments"></textarea>
-                                </div>
-                                <button className="git-btn" type="submit">Submit</button>
-                            </div>
-                        </form>
+
                     </div>
                 </div>
             </div>
