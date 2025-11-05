@@ -3,6 +3,7 @@ import Titlecomponent from '../components/Titlecomponent'
 import Bookingunit from '../components/Bookingunit'
 import Choose from '../components/Choose'
 import Book from '../components/Book'
+import Faq from '../components/Faq'
 
 function Booking() {
     return (
@@ -11,6 +12,7 @@ function Booking() {
             <Bookingunit />
             <Choose />
             <Book />
+            <Faq />
         </>
     )
 }
