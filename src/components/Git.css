@@ -23,11 +23,7 @@
     margin: 1.5rem;
 }
 
-.direction {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
+
 .direction2 {
     display: grid;
     grid-template-columns: auto auto;
@@ -54,35 +50,8 @@
     width: 664px;
 }
 
-::placeholder {
-    color: #f1C30C;
-}
 
-#text {
-    height: 58px;
-    padding: 10px;
-}
 
-#email2 {
-    height: 58px;
-    padding: 10px;
-
-}
-#phonenumber {
-    height: 58px;
-    padding: 10px;
-
-}
-#subject {
-    height: 58px;
-    padding: 10px;
-
-}
-
-#comment {
-    height: 150px;
-    padding: 10px;
-}
 
 .pop-up {
     display: flex;
@@ -101,45 +70,6 @@
 .git-btn {
     max-width: 156px;
 }
-
-.error {
-  color: #d93025;
-}
-
-input, textarea {
-    border: 1px solid #F1C30C; 
-    border-radius: 5px;
-    outline: none;
-    &:focus {
-        outline: none;
-        border: 1px solid black;
-        display: block;
-    }
-    &:valid {
-        outline: none;
-        border: 1px solid #F1C30C;
-        background-color: #ffffff;
-
-        
-    }
-    &:user-invalid {
-        outline: none;
-        
-        border: 1px solid #f10c0c;
-        background-color: #ffffff;
-        display: block;
-        &:focus {
-            outline: none;
-            border: 1px solid black;
-            display: block;
-        }
-    }
-
-    
-
-}
-
-
 
 
 

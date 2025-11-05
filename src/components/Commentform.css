@@ -26,6 +26,8 @@
 
 
 textarea {
+    height: 150px;
+    padding: 10px;
     border: 1px solid #F1C30C; 
     border-radius: 5px;
     outline: none;
