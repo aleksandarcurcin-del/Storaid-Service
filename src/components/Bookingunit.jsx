@@ -103,7 +103,7 @@ function Bookingunit() {
                                     <div className="direction-big">
                                         <Commentform id="purpose" label="Storage purpose" name="purpose" value={formContent.purpose} onChange={handleChange} required placeholder="Describe your storage purpose so that we can match your request"  error={errors.purpose}/>
                                     </div>
-                                    <Buttons type="submit" className="booking-btn" text="Submit" />
+                                    <Buttons type="submit" className="booking-btn" text="Book Unit" />
                                 </div>
                             </form>
                         </div>
