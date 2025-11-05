@@ -5,22 +5,21 @@
 }
 
 .cf-label .req {
-  margin-left: 4px;
-  color: #d93025;
-  opacity: 0;
-  transition: opacity .15s;
+    margin-left: 4px;
+    color: #d93025;
+    opacity: 0;
+    transition: opacity .15s;
 }
 .cf-label .req.show { opacity: 1; }
 
-.input.is-invalid { border-color: #d93025; }
-/* valfritt: normalstate */
-.input { border: 1px solid #F1C30C; border-radius: 5px; }
+
+
 ::placeholder {
     color: #f1C30C;
 }
 
 .error {
-  color: #d93025;
+    color: #d93025;
 }
 
 input {
