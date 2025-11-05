@@ -1,0 +1,67 @@
+.find  {
+    margin-top: 80px;
+    height: 600px;
+    background-color: #12372ae1;
+}
+
+.find-flex {
+    display: flex;
+    gap: 10rem;
+}
+
+.find-left {
+    display: flex;
+    padding-top: 94px;
+    height: 100%;
+    
+}
+
+.find-color {
+    background-color: #f1ffea71;
+    height: 600px;
+    width: 664px;
+}
+
+.find-right {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.find-circle {
+    background-color: var(--button-hover);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+
+    .find-circle-inner {
+        position: relative;
+        left: 15px;
+        top: 15px;
+    }
+}
+
+.find-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.find-content-inner {
+    display: flex;
+    gap: 20px;
+}
+
+.find-socialmedia {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.find-underline {
+    border: 1px solid var(--button-hover); height: 1px;
+    width: 175px;
+}
