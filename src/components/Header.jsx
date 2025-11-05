@@ -5,8 +5,11 @@ import { NavLink, Link} from "react-router-dom"
 
 
 
-
 function Header() {
+
+
+
+
   return (
   <>
     <header>
@@ -46,7 +49,9 @@ function Header() {
               <NavLink className="nav-link" to="/contactus">Contact Us</NavLink>
             </div>
             <div className="header-btn">
-              <Buttons text="Book Now"/>
+              <Link to="/booking">
+                <Buttons type="submit" text="Book Now"/>
+              </Link>
             </div>
           </div>
         </div>
