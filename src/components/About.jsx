@@ -1,6 +1,7 @@
 import './About.css'
 import Buttons from "./Buttons"
 import Tiles from "./Tiles"
+import { Link} from "react-router-dom"
 
 function About() {
   return (
@@ -54,7 +55,9 @@ function About() {
                     </div>
                     <div className="about-lower">
                         <div className="about-btn">
-                            <Buttons text="Discover More"/>
+                            <Link to="/notfound">
+                                <Buttons type="submit" text="Discover More"/>
+                            </Link>
                         </div>
 
                         <div className="about-info">
