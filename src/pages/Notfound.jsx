@@ -1,8 +1,14 @@
 import React from 'react'
+import Pagenotfound from '../components/Pagenotfound'
 
 function Notfound() {
   return (
-    <div>Notfound</div>
+    <>
+        <Pagenotfound />
+    
+    
+    
+    </>
   )
 }
 

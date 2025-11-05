@@ -7,6 +7,7 @@ import Contactus from "./pages/Contactus"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Subscribe from "./components/Subscribe"
+import Notfound from "./pages/Notfound"
 
 
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/aboutus" element={<Aboutus /> } />
             <Route path="/services" element={<Services /> } />
             <Route path="/contactus" element={<Contactus /> } />
+            <Route path="/notfound" element={<Notfound /> } />
           </Routes>
           <Subscribe />         
         </main>
