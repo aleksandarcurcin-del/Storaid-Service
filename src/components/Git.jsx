@@ -1,6 +1,8 @@
 import './Git.css'
 import Buttons from './Buttons'
 import { useState } from 'react'
+import Contactform from './Contactform'
+import Commentform from './Commentform'
 
 function Git() {
     const [formContent, setFormContent] = useState({ name: '', email: '', phoneNumber: '', subject: '', comment: '' })
@@ -79,7 +81,28 @@ function Git() {
                         <div className="git-box"></div>
                     </div>
                     <div className="git-right">
-
+                        <form onSubmit={handleSubmit} noValidate>
+                            <div className="git-form">
+                                <div className="direction">
+                                    <Contactform id="name" label="Your Name" className="input form-name" type="text" name="name" value={formContent.name} onChange={handleChange} required placeholder="Your name" error={errors.name} />
+                                </div>
+                                <div className="direction2">
+                                    <div className="direction3">
+                                        <Contactform id="email2" label="Email" className="input form-email" type="email" name="email" value={formContent.email} onChange={handleChange} required placeholder="Email" error={errors.email} />
+                                    </div>
+                                    <div className="direction3">
+                                        <Contactform id="phonenumber" label="Phonenumber" className="input form-phonenumber" type="tel" name="phoneNumber" value={formContent.phoneNumber} onChange={handleChange} required placeholder="Phonenumber" error={errors.phoneNumber} />
+                                    </div>
+                                </div>
+                                <div className="direction">
+                                    <Contactform id="subject" label="Subject" className="input form-subject" type="subject" name="subject" value={formContent.subject} onChange={handleChange} required placeholder="Subject" error={errors.subject} />
+                                </div>
+                                <div className="direction-big">
+                                    <Commentform id="comment" label="Comments / Questions" name="comment" value={formContent.comment} onChange={handleChange} required placeholder="Comments"  error={errors.comment}/>
+                                </div>
+                                <Buttons type="submit" className="git-btn" text="Submit"/>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
