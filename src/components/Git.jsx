@@ -20,7 +20,9 @@ function Git() {
         }
     }
 
-
+    const handleOk = () => {
+        setSubmitted(false)
+    }
     
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -49,20 +51,23 @@ function Git() {
 
         if (res.ok) {
             setSubmitted(true)
+            const data = await res.text()
+            console.log(data)
             setFormContent({ name: '', email: '', phoneNumber: '', subject: '', comment: '' })
+        } else {
+            const data = await res.json()
+            console.log(data)
         }
     }
 
 
-    const handleOk = () => {
-        setSubmitted(false)
-    }
+
 
     if (submitted) {
         return (
             <div className="container">
                 <div className="pop-up">
-                    <h2>Thank you for your comment!</h2>                   
+                    <h2>Thank you for contacting us. We have received your message and will respond to you within 1-2 business days.</h2>                   
                     <Buttons type="submit" className="submitted-btn" onClick={handleOk} text="OK"/>
                 </div>
             </div>
