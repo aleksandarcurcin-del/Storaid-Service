@@ -27,17 +27,7 @@ function Bookingunit() {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        const newErrors = {}
-        Object.keys(formContent).forEach(field => {
-            if(formContent[field].trim() === '') {
-                newErrors[field] = `The ${field} field is required.`
-            }
-        })
 
-        if(Object.keys(newErrors).length > 0) {
-            setErrors(newErrors)
-            return
-        }
 
         const res = await fetch('https://win25-jsf-assignment.azurewebsites.net/api/booking', {
             method: 'post',
@@ -51,8 +41,29 @@ function Bookingunit() {
 
         if (res.ok) {
             setSubmitted(true)
+            const data = await res.text()
+            console.log(data)
             setFormContent({ name: '', email: '', selectedUnit: '', purpose: ''})
+        } else {
+            const data = await res.json()
+            console.log(data)
         }
+
+
+
+
+
+        const newErrors = {}
+        Object.keys(formContent).forEach(field => {
+            if(formContent[field].trim() === '') {
+                newErrors[field] = `The ${field} field is required.`
+            }
+        })
+
+        if(Object.keys(newErrors).length > 0) {
+            setErrors(newErrors)
+            return
+        }        
     }
 
 
@@ -64,7 +75,7 @@ function Bookingunit() {
         return (
             <div className="container">
                 <div className="pop-up">
-                    <h2>Thank you for booking with us!</h2>                  
+                    <h2>We have received your booking request and will respond to you within 1-2 business days.</h2>                  
                     <Buttons type="submit" className="submitted-btn" onClick={handleOk} text="OK"/>
                 </div>
             </div>
