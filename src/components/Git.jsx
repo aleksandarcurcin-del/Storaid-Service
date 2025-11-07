@@ -5,7 +5,7 @@ import Contactform from './Contactform'
 import Commentform from './Commentform'
 
 function Git() {
-    const [formContent, setFormContent] = useState({ name: '', email: '', phoneNumber: '', subject: '', comment: '' })
+    const [formContent, setFormContent] = useState({ name: '', email: '', subject: '', comment: '' })
     const [errors, setErrors] = useState({})
     const [submitted, setSubmitted] = useState(false)
 
@@ -27,17 +27,7 @@ function Git() {
     const handleSubmit = async (e) => {
         e.preventDefault()
 
-        const newErrors = {}
-        Object.keys(formContent).forEach(field => {
-            if(formContent[field].trim() === '') {
-                newErrors[field] = `The ${field} field is required.`
-            }
-        })
 
-        if(Object.keys(newErrors).length > 0) {
-            setErrors(newErrors)
-            return
-        }
 
         const res = await fetch('https://win25-jsf-assignment.azurewebsites.net/api/contact', {
             method: 'post',
@@ -53,11 +43,24 @@ function Git() {
             setSubmitted(true)
             const data = await res.text()
             console.log(data)
-            setFormContent({ name: '', email: '', phoneNumber: '', subject: '', comment: '' })
+            setFormContent({ name: '', email: '', subject: '', comment: '' })
         } else {
             const data = await res.json()
             console.log(data)
         }
+
+
+        const newErrors = {}
+        Object.keys(formContent).forEach(field => {
+            if(formContent[field].trim() === '') {
+                newErrors[field] = `The ${field} field is required.`
+            }
+        })
+
+        if(Object.keys(newErrors).length > 0) {
+            setErrors(newErrors)
+            return
+        }        
     }
 
 
@@ -96,7 +99,7 @@ function Git() {
                                         <Contactform id="email2" label="Email" className="input form-email" type="email" name="email" value={formContent.email} onChange={handleChange} required placeholder="Email" error={errors.email} />
                                     </div>
                                     <div className="direction3">
-                                        <Contactform id="phonenumber" label="Phonenumber" className="input form-phonenumber" type="tel" name="phoneNumber" value={formContent.phoneNumber} onChange={handleChange} required placeholder="Phonenumber" error={errors.phoneNumber} />
+                                        <Contactform id="phonenumber" label="Phonenumber" className="input form-phonenumber" type="tel" name="phoneNumber" placeholder="Phonenumber" />
                                     </div>
                                 </div>
                                 <div className="direction">
