@@ -22,7 +22,7 @@
     color: #d93025;
 }
 
-input {
+input[required] {
     height: 58px;
     padding: 10px;
     border: 1px solid #F1C30C; 
@@ -56,3 +56,20 @@ input {
     
 
 }
+
+input {
+    height: 58px;
+    padding: 10px;
+    border: 1px solid #F1C30C; 
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid black;
+    display: block;
+
+}
+
+
