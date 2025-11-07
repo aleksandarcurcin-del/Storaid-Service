@@ -7,11 +7,28 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .subscribe-right {
     display: flex;
     gap: 20px;
+}
+
+.subscribe-form {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.red {
+    color: red;
+
+}
+
+.form-email {
+    margin-bottom: 24px;
 }
 
 #email {
@@ -22,11 +39,54 @@
     padding: 0 44px 0 44px;
     width: 540px;
     height: 60px;
-    
+        &:focus {
+        outline: none;
+        border: 1px solid black;
+        display: block;
+    }
+    &:valid {
+        outline: none;
+        border: 1px solid #F1C30C;
+        background-color: #ffffff;
+
+        
+    }
+    &:user-invalid {
+        outline: none;
+        
+        border: 1px solid #f10c0c;
+        background-color: #ffffff;
+        display: block;
+        &:focus {
+            outline: none;
+            border: 1px solid black;
+            display: block;
+        }
+        &::placeholder {
+            color: #f10c0c;
+        }
+    }
+
 
 }
 
-#email::placeholder {
-  color: #f1C30C;
-
+.subscribe-btn {
+    width: 102px;
+    height: 61px;
 }
+
+.pop-up {
+    display: flex;
+    flex-direction: column;
+    padding-block: 5rem;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    h2 {
+        color: #12372A;
+    }
+    .submitted-btn {
+        width: 100px;
+    }
+}
+
