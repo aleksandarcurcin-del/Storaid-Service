@@ -20,6 +20,7 @@
     grid-template-columns: auto auto auto;
     align-items: center;
     gap: 20px;
+    position: relative;
 }
 
 .red {
@@ -51,7 +52,9 @@
 
         
     }
-    &:user-invalid {
+    &:user-invalid + .email-error {
+        opacity: 1;
+        visibility: visible;
         outline: none;
         
         border: 1px solid #f10c0c;
@@ -68,6 +71,34 @@
     }
 
 
+}
+
+.email-error {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    color: red;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    padding: 6px 10px;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    margin-top: 4px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -8px;        
+        left: 16px;
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid #d93025; 
+
+    }
 }
 
 .subscribe-btn {
