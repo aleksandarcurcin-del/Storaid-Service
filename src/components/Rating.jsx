@@ -1,10 +1,11 @@
 import React from 'react'
 import './Testimonials.css'
+import Ratingstar from './Ratingstar'
 
 function Rating({ item }) {
   return (
         <div className="review">
-            <div className="stars">{item.rating}/5</div>
+            <Ratingstar rating={item.rating} />
             <p>{item.comment}</p>
             <div className="review-bottom">
                 <div className="circle"><img className="circle-inner" src={item.avatarUrl} alt="" /></div>
