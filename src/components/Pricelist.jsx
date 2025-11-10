@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, } from 'react';
+import { Link} from "react-router-dom"
 import './Pricelist.css'
 import Buttons from "./Buttons";
 import checkmarkGreen from '/images/checkicon.svg'
@@ -41,7 +42,9 @@ function Pricelist({ title, price }) {
                     <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="" /> <p>Etiam eget libero non ligula</p>
                 </div>
                 <div className="rent-btn">
-                    <Buttons text="Rent Now" />
+                    <Link to="/booking">
+                        <Buttons text="Rent Now" />
+                    </Link>
                 </div>
             </div>
         </div>
