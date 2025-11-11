@@ -6,7 +6,7 @@
 
 .cf-label .req {
     margin-left: 4px;
-    color: #d93025;
+    color: #A1241B;
     opacity: 0;
     transition: opacity .15s;
 }
@@ -14,18 +14,16 @@
 
 
 
-::placeholder {
-    color: #f1C30C;
-}
+
 
 .error {
-    color: #d93025;
+    color: #A1241B;
 }
 
 input[required] {
     height: 58px;
     padding: 10px;
-    border: 1px solid #F1C30C; 
+    border: 1px solid #122ca3; 
     border-radius: 5px;
     outline: none;
     &:focus {
@@ -35,7 +33,7 @@ input[required] {
     }
     &:valid {
         outline: none;
-        border: 1px solid #F1C30C;
+        border: 1px solid #122ca3;
         background-color: #ffffff;
 
         
@@ -43,7 +41,7 @@ input[required] {
     &:user-invalid {
         outline: none;
         
-        border: 1px solid #f10c0c;
+        border: 1px solid #A1241B;
         background-color: #ffffff;
         display: block;
         &:focus {
@@ -53,16 +51,21 @@ input[required] {
         }
     }
 
-    
+    &::placeholder {
+    color: #122ca3;
+    }
 
 }
 
 input {
     height: 58px;
     padding: 10px;
-    border: 1px solid #F1C30C; 
+    border: 1px solid #122ca3; 
     border-radius: 5px;
     outline: none;
+    &::placeholder {
+        color: #122ca3;
+    }
 }
 
 input:focus {
