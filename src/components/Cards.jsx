@@ -4,6 +4,9 @@ import calendarIconGreen from '/images/calendaricongreen.svg'
 import calendarIcon from '/images/calendaricon.svg'
 
 function Cards({ item }) {
+
+  /* Tagit hjälp av AI samt youtube för expanded */
+
   const [isHovered, setIsHovered] = useState(false)
   const [isExpanded, setIsExpanded] = useState(false);
   
