@@ -1,6 +1,6 @@
 :root{
     --link: #12372A;
-    --link-hover: #88711B;
+    --link-hover: #615114;
     --button-color: #F1C30C;
     --button-hover: #12372A;
     --about-border: #e7e7e7;
@@ -31,7 +31,7 @@ h3 {
 
 h4 {
     font-size: 25px;
-    color: #88711B;
+    color: #655415;
 }
 
 h5 {

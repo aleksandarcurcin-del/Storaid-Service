@@ -11,7 +11,7 @@ function Pagenotfound() {
             <h1>Page Not Found</h1>
             <p>Sorry, the page you are looking for does not exist. It may have been moved, removed altogether or is temporarily unavailable.</p>
             <Link to="/">
-                <Buttons type="submit" text="Back to Home" />
+                <Buttons className="notfound-btn" type="submit" text="Back to Home" />
             </Link>
         </div>
     </section>

@@ -14,7 +14,7 @@ function Book() {
                     </div>
                     <div className="book-btn">
                         <Link to="/booking">
-                            <Buttons type="submit" text="Book Now"/>
+                            <Buttons className="book-btn" type="submit" text="Book Now"/>
                         </Link>
                     </div>
                 </div>

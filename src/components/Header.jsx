@@ -50,7 +50,7 @@ function Header() {
             </div>
             <div className="header-btn">
               <Link to="/booking">
-                <Buttons type="submit" text="Book Now"/>
+                <Buttons className="header-btn" type="submit" text="Book Now"/>
               </Link>
             </div>
           </div>

@@ -10,6 +10,12 @@
     button {
         width: 124px;
         height: 45px;
+        border-radius: 5px;
+        border: none;
+        background-color: var(--button-hover);
+        color: #ffffff;
+        transition: color .2s ease;
+        font-weight: 600;
     }
 
     &:hover {

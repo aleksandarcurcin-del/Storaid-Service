@@ -63,3 +63,12 @@
 }
 
 
+.header-btn {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--link-hover);
+    color: #ffffff;
+    transition: color .2s ease;
+    font-weight: 600;
+
+}
