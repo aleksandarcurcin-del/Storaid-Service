@@ -82,7 +82,7 @@ function Subscribe() {
                 <div className="subscribe-right">
                     <form onSubmit={handleSubmit} noValidate>
                         <div className="subscribe-form">
-                            <Emailform id="email" className="form-email" type="email" name="email" value={formContent.email} onChange={handleChange} required placeholder="Enter your email " error={errors.email} />
+                            <Emailform label="Your Email" id="email" className="form-email" type="email" name="email" value={formContent.email} onChange={handleChange} required placeholder="Enter your email " error={errors.email} />
                             <Buttons className="subscribe-btn" type="submit" text="Submit" />
                         </div>
                     </form>

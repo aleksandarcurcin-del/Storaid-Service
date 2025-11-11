@@ -28,11 +28,10 @@
 
 }
 
-.form-email {
-    margin-bottom: 24px;
-}
+
 
 #email {
+    margin-bottom: 30px;
     width: 100%;
     border-radius: 5px;
     outline: none;
@@ -75,7 +74,7 @@
 
 .email-error {
     position: absolute;
-    top: 100%;
+    top: 75%;
     left: 20%;
     color: red;
     border-radius: 5px;
