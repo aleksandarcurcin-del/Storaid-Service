@@ -43,9 +43,6 @@
 
 
 .desc.clamped{
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
     overflow: hidden;
     max-height: calc(1.5rem * 4);
 }
@@ -62,15 +59,7 @@
     padding-right:1.2rem;        
 }
 
-.read-more::after{
-    content:"→";                  
-    position:absolute;
-    
-    left:90px;
-    top:50%;
-    translate:0 -50%;
-    
-}
+
 
 
 

@@ -34,7 +34,7 @@ function Cards({ item }) {
               e.preventDefault()
               setIsExpanded(!isExpanded)
             }}>
-              {isExpanded ? 'Read less' : 'Read more'}
+              {isExpanded ? 'Read less' : 'Read more →'}
             </a>
           </div>
         </div>
