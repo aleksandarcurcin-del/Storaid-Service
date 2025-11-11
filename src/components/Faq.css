@@ -55,8 +55,14 @@
   transform: translateY(-50%) rotate(-135deg); 
 }
 
+.accordion-toggle {
+    &:hover {
+        background-color: #88711B;
+    }
+}
+
 .accordion-toggle[aria-expanded="true"] {
-    background-color: var(--button-color);
+    background-color: #88711B;
     color: #ffffff;
 }
 
