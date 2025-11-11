@@ -7,5 +7,8 @@
     justify-content: space-between;
     padding-top: 150px;
     gap: 8rem;
-    color: #FFFFFF;
+    h4 {
+        color: #FFFFFF;
+    }
 }
+

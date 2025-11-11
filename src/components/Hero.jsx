@@ -15,7 +15,7 @@ export default function Hero() {
             <p className="p-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem fringilla sodales. Cras lobortis, libero at iaculis luctus, nisi ex pellentesque nisi, at euismod sem ipsum ac dolor.</p>
             <div className="hero-btn">
               <Link to="/notfound">
-                <Buttons type="submit" text="Discover More"/>
+                <Buttons className="hero-btn" type="submit" text="Discover More"/>
               </Link>
             </div>
           </div>

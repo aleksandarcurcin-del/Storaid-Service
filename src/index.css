@@ -1,11 +1,11 @@
 :root{
     --link: #12372A;
-    --link-hover: #F1C30C;
+    --link-hover: #88711B;
     --button-color: #F1C30C;
     --button-hover: #12372A;
     --about-border: #e7e7e7;
     --tile-border: #ECECEC;
-    --tile-border-hover: #F1C30C;
+    --tile-border-hover: #88711B;
 }
 
 
@@ -31,7 +31,7 @@ h3 {
 
 h4 {
     font-size: 25px;
-    color: #F1C30C;
+    color: #88711B;
 }
 
 h5 {
