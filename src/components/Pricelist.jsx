@@ -18,7 +18,7 @@ function Pricelist({ title, price }) {
         >
             <h5>{title}</h5>
             <div className="prices">
-                <img className="dollar-icon" src="/images/dollaricon.svg" alt="" />
+                <img className="dollar-icon" src="/images/dollaricon.svg" alt="dollar icon" />
                 <h3>{price}</h3>
                 <h6>/month</h6>
             </div>
@@ -27,19 +27,19 @@ function Pricelist({ title, price }) {
 
             <div className="pricing-lower">
                 <div className="pricing-check">
-                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="" /> <p>Nam nec ipsum in dolor</p>
+                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="checkmark icon" /> <p>Nam nec ipsum in dolor</p>
                 </div>
                 <div className="pricing-check">
-                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="" /> <p>Fusce nec ligula ut arcu</p>
+                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="checkmark icon" /> <p>Fusce nec ligula ut arcu</p>
                 </div>
                 <div className="pricing-check">
-                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="" /> <p>Aliquam pulvinar arcu in</p>
+                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="checkmark icon" /> <p>Aliquam pulvinar arcu in</p>
                 </div>
                 <div className="pricing-check">
-                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="" /> <p>Duis gravida enim porta</p>
+                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="checkmark icon" /> <p>Duis gravida enim porta</p>
                 </div>
                 <div className="pricing-check">
-                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="" /> <p>Etiam eget libero non ligula</p>
+                    <img className="check-icon" src={isHovered ? checkmarkyellow : checkmarkGreen} alt="checkmark icon" /> <p>Etiam eget libero non ligula</p>
                 </div>
                 <div className="rent-btn">
                     <Link to="/booking">

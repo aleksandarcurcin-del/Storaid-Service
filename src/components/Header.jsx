@@ -17,7 +17,7 @@ function Header() {
           <div className="container--wide">
             <div className="header-green">
               <div className="header-left">
-                <img src="/images/Icon.svg" alt="Icon" />+46 8 123 122 44
+                <img src="/images/Icon.svg" alt="telephone Icon" />+46 8 123 122 44
                 <img src="/images/emailicon.svg" alt="email" />contact@domain.com
               </div>
               <div className="header-right">
@@ -40,7 +40,7 @@ function Header() {
         <div className="container--wide">
           <div className="header-lower">
             <Link to="/">
-              <img className="header-logo" src="/images/headerlogo.svg" alt="" />
+              <img className="header-logo" src="/images/headerlogo.svg" alt="storaid logo" />
             </Link>
             <div className="header-nav">
               <NavLink className="nav-link" to="/">Home</NavLink>

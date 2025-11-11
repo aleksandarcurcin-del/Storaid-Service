@@ -61,7 +61,7 @@ function About() {
                         </div>
 
                         <div className="about-info">
-                            <img src="/images/mobileicon.svg" alt="" />
+                            <img src="/images/mobileicon.svg" alt="telephone icon" />
                             <div className="about-info-right">
                                 <h5>More Information</h5>
                                 <h6>+46 8 123 122 44</h6>

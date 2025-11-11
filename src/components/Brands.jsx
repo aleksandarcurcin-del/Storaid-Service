@@ -6,11 +6,11 @@ function Brands() {
         <div className="brands-color">
             <div className="container">
                 <div className="brands-flex">
-                    <img src="images/Logoipsum1.svg" alt="" />
-                    <img src="images/Logoipsum2.svg" alt="" />
-                    <img src="images/Logoipsum3.svg" alt="" />
-                    <img src="images/Logoipsum4.svg" alt="" />
-                    <img src="images/Logoipsum5.svg" alt="" />
+                    <img src="images/Logoipsum1.svg" alt="logoipsum brand" />
+                    <img src="images/Logoipsum2.svg" alt="logoipsum brand" />
+                    <img src="images/Logoipsum3.svg" alt="logoipsum brand" />
+                    <img src="images/Logoipsum4.svg" alt="logoipsum brand" />
+                    <img src="images/Logoipsum5.svg" alt="logoipsum brand" />
                 </div>
             </div>
         </div>

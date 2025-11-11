@@ -8,7 +8,7 @@ function Rating({ item }) {
             <Ratingstar rating={item.rating} />
             <p>{item.comment}</p>
             <div className="review-bottom">
-                <div className="circle"><img className="circle-inner" src={item.avatarUrl} alt="" /></div>
+                <div className="circle"><img className="circle-inner" src={item.avatarUrl} alt="avatar" /></div>
                 <div className="person">
                     <h6>{item.name}</h6>
                     <p className="customer">{item.companyName}</p>

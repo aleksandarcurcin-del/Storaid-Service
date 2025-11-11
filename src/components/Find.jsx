@@ -6,7 +6,7 @@ function Find() {
         <div className="container">
             <div className="find-flex">
                 <div className="find-left">
-                    <img src="/images/findimage.svg" alt="" />
+                    <img src="/images/findimage.svg" alt="man image" />
                 </div>
                 <div className="find-color">
                     <div className="find-right">
@@ -14,21 +14,21 @@ function Find() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                         <div className="find-content">
                             <div className="find-content-inner">
-                                <div className="find-circle"><img className="find-circle-inner" src="/images/findphone.svg" alt="" /></div>
+                                <div className="find-circle"><img className="find-circle-inner" src="/images/findphone.svg" alt="phone icon" /></div>
                                 <div className="find-text">
                                     <h5>Call Center</h5>
                                     <p>+46 8 123 122 44</p>
                                 </div>
                             </div>
                             <div className="find-content-inner">
-                                <div className="find-circle"><img className="find-circle-inner" src="/images/findemail.svg" alt="" /></div>
+                                <div className="find-circle"><img className="find-circle-inner" src="/images/findemail.svg" alt="email icon" /></div>
                                 <div className="find-text">
                                     <h5>Email Address</h5>
                                     <p>contact@domain.com</p>
                                 </div>
                             </div>
                             <div className="find-content-inner">
-                               <div className="find-circle"><img className="find-circle-inner" src="/images/findlocation.svg" alt="" /></div>
+                               <div className="find-circle"><img className="find-circle-inner" src="/images/findlocation.svg" alt="location icon" /></div>
                                 <div className="find-text">
                                     <h5>Location</h5>
                                     <p>Klarabergsviadukten 90, Stockholm</p>

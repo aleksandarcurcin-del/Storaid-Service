@@ -20,7 +20,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/images/heroimage.svg" alt="" />
+            <img src="/images/heroimage.svg" alt="man image" />
           </div>
         </div>
 

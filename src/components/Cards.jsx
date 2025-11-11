@@ -17,11 +17,11 @@ function Cards({ item }) {
     >
       <div className="card-box">
         <div className="cardbox-inner">
-          <img className="blog-image" src={item.imageUrl} />
+          <img className="blog-image" src={item.imageUrl} alt="storage image" />
         </div>
         <div className="card-content">
           <div className="calendar">
-            <img className="calendar-icon" src={isHovered ? calendarIconGreen : calendarIcon} alt="" /> <p>{item.created}</p>
+            <img className="calendar-icon" src={isHovered ? calendarIconGreen : calendarIcon} alt="calendar" /> <p>{item.created}</p>
           </div>
           <div className="card-text">
             <h6>{item.title}</h6>
@@ -37,7 +37,7 @@ function Cards({ item }) {
               e.preventDefault()
               setIsExpanded(!isExpanded)
             }}>
-              {isExpanded ? 'Read less' : 'Read more →'}
+              {isExpanded ? 'Read less' : 'Read more about this →'}
             </a>
           </div>
         </div>
