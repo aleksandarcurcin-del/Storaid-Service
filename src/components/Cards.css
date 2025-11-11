@@ -36,6 +36,25 @@
     }
 }
 
+.desc {
+    line-height: 1.5rem;
+    transition: max-height .25s ease;
+}
+
+
+.desc.clamped{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    max-height: calc(1.5rem * 4);
+}
+
+.desc.expanded{
+    display: block;
+    max-height: none;
+}
+
 .read-more{
     color:#F1C30C;                
     text-decoration:none;
@@ -46,7 +65,8 @@
 .read-more::after{
     content:"→";                  
     position:absolute;
-    right:0;
+    
+    left:90px;
     top:50%;
     translate:0 -50%;
     

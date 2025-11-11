@@ -5,9 +5,10 @@ import calendarIcon from '/images/calendaricon.svg'
 
 function Cards({ item }) {
   const [isHovered, setIsHovered] = useState(false)
+  const [isExpanded, setIsExpanded] = useState(false);
   
   return (
-    <div className="cards-inner"
+    <div className={`cards-inner ${setIsExpanded ? 'isExpanded' : ""}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -21,10 +22,20 @@ function Cards({ item }) {
           </div>
           <div className="card-text">
             <h6>{item.title}</h6>
-            <p>{item.description}</p>
+            <p
+              id={`desc ${item.id}`}
+              className={`desc ${isExpanded ? "isExpanded" : "clamped"}`}
+            >
+              {item.description}
+            </p>
           </div>
           <div className="card-link">
-            <a className="read-more" href="/">Read More</a>
+            <a className="read-more" href="#" onClick={(e) => {
+              e.preventDefault()
+              setIsExpanded(!isExpanded)
+            }}>
+              {isExpanded ? 'Read less' : 'Read more'}
+            </a>
           </div>
         </div>
       </div>
