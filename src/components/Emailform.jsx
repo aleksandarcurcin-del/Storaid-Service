@@ -1,4 +1,4 @@
-
+import './Emailform.css'
 
 function Emailform({ label, error, className, id, type, name, placeholder,  ...props}) {
 
