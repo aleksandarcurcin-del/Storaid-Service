@@ -21,7 +21,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-image">
-            <img className="storage-image" src="/images/storageimage11.png" alt="man image" />
+            <img className="storage-image3" src="/images/storageimage11.png" alt="man image" />
           </div>
         </div>
 

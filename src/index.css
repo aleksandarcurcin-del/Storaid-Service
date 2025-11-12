@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --link: #12372A;
     --link-hover: #4d4115;
@@ -17,36 +19,48 @@
 h1 {
     font-size: 80px;
     color: #F1FFEA;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 64px;
+    font-family: "urbanist";
+    font-weight: 800;
 }
 
 h3 {
     font-size: 52px;
     color: #12372A;
+    font-family: "urbanist";
+    font-weight: bold;
     
 }
 
 h4 {
     font-size: 25px;
     color: #4d4115;
+    font-family: "urbanist";
+    font-optical-sizing: auto;
+    font-weight: bold;
 }
 
 h5 {
     font-size: 24px;
     color: #12372A;
+    font-family: "urbanist";
+    font-weight: 700;
 }
 
 h6 {
     font-size: 20px;
     color: #12372A;
+    font-family: "urbanist";
+    font-weight: bold;
 }
 
 p {
     color: #12372A;
-
+   
 }
 
 .wrapper {

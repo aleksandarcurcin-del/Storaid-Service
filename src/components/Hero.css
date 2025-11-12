@@ -1,5 +1,6 @@
 .hero {
     background-color: #FAF8EC;  /* har valt denna bakgrunden pga att mina buttons annars hade blivit i olika färger och det såg inte snyggt ut */ 
+    
 }
 
 .hero-flex {
@@ -16,6 +17,9 @@
     font-size: 25px;
     font-weight: 700;
     color: #4d4115;
+    font-family: "urbanist";
+    font-optical-sizing: auto;
+    font-weight:bold;
 }
 
 .hero-btn {
@@ -23,4 +27,8 @@
     border-radius: 5px;
 
 
+}
+
+.storage-image3 {
+    height: 490px;
 }
