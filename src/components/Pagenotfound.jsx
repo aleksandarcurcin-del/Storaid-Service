@@ -7,8 +7,8 @@ function Pagenotfound() {
   return (
     <section className="notfound">
         <div className="notfound-content">
-            <h5>Oops!</h5>
-            <h1>Page Not Found</h1>
+            <p className="notfound-text">Oops!</p>
+            <h1 className="notfound-title">Page Not Found</h1>
             <p>Sorry, the page you are looking for does not exist. It may have been moved, removed altogether or is temporarily unavailable.</p>
             <Link to="/">
                 <Buttons className="notfound-btn" type="submit" text="Back to Home" />

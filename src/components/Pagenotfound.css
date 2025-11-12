@@ -4,14 +4,24 @@
     
 }
 
+
+.notfound-text {
+    font-size: 24px;
+    font-family: "urbanist";
+    font-weight:600;
+    
+
+}
+
+.notfound-title {
+    color: #4d4115;
+
+}
 .notfound-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 15rem;
 
-    h1 {
-        color: #12372A;
-    }
 }
 
