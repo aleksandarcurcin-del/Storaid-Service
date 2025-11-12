@@ -6,7 +6,7 @@ function Find() {
         <div className="container">
             <div className="find-flex">
                 <div className="find-left">
-                    <img src="/images/findimage.svg" alt="man image" />
+                    <img className="storage-image2" src="/images/storageimage12.png" alt="man image" />
                 </div>
                 <div className="find-color">
                     <div className="find-right">
