@@ -3,6 +3,7 @@ import Buttons from "./Buttons"
 
 import { Link} from "react-router-dom"
 
+/* bilden är AI genererad */
 
 export default function Hero() {
   return (
@@ -20,7 +21,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/images/heroimage.svg" alt="man image" />
+            <img className="storage-image" src="/images/storageimage11.png" alt="man image" />
           </div>
         </div>
 

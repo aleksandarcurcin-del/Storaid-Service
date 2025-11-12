@@ -10,33 +10,33 @@ function Find() {
                 </div>
                 <div className="find-color">
                     <div className="find-right">
-                        <h3>Find Us On:</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        <h3 className="find-white">Find Us On:</h3>
+                        <p className="find-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                         <div className="find-content">
                             <div className="find-content-inner">
                                 <div className="find-circle"><img className="find-circle-inner" src="/images/findphone.svg" alt="phone icon" /></div>
                                 <div className="find-text">
-                                    <h5>Call Center</h5>
-                                    <p>+46 8 123 122 44</p>
+                                    <h5 className="find-white">Call Center</h5>
+                                    <p className="find-white">+46 8 123 122 44</p>
                                 </div>
                             </div>
                             <div className="find-content-inner">
                                 <div className="find-circle"><img className="find-circle-inner" src="/images/findemail.svg" alt="email icon" /></div>
                                 <div className="find-text">
-                                    <h5>Email Address</h5>
-                                    <p>contact@domain.com</p>
+                                    <h5 className="find-white">Email Address</h5>
+                                    <p className="find-white">contact@domain.com</p>
                                 </div>
                             </div>
                             <div className="find-content-inner">
                                <div className="find-circle"><img className="find-circle-inner" src="/images/findlocation.svg" alt="location icon" /></div>
                                 <div className="find-text">
-                                    <h5>Location</h5>
-                                    <p>Klarabergsviadukten 90, Stockholm</p>
+                                    <h5 className="find-white">Location</h5>
+                                    <p className="find-white">Klarabergsviadukten 90, Stockholm</p>
                                 </div>
                             </div>
                         </div>
                         <div className="find-socialmedia">
-                            <h5>Our Social Media</h5>
+                            <h5 className="find-white">Our Social Media</h5>
                             <div className="find-underline"></div>
                             <a href="https://www.facebook.com/">
                                 <img src="/images/Facebook.svg" alt="facebook" />

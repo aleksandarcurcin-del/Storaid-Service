@@ -4,8 +4,8 @@
     --button-color: #F1C30C;
     --button-hover: #12372A;
     --about-border: #e7e7e7;
-    --tile-border: #ECECEC;
-    --tile-border-hover: #88711B;
+    --tile-border: #12372A;
+    --tile-border-hover: #4d4115;
 }
 
 
@@ -31,7 +31,7 @@ h3 {
 
 h4 {
     font-size: 25px;
-    color: #655415;
+    color: #4d4115;
 }
 
 h5 {

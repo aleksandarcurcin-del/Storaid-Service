@@ -3,7 +3,7 @@
     width: 100%;
     border-radius: 5px;
     outline: none;
-    border: 1px solid #122ca3;
+    border: 1px solid #12372A;
     padding: 0 44px 0 44px;
     width: 540px;
     height: 60px;
@@ -14,7 +14,7 @@
     }
     &:valid {
         outline: none;
-        border: 1px solid #122ca3;
+        border: 1px solid #12372A;
         background-color: #ffffff;
 
         
@@ -35,7 +35,7 @@
     }
 
     &::placeholder {
-        color: #122ca3;
+        color: #12372A;
     }
 
 

@@ -24,7 +24,7 @@ h3 {
     background-color: #C4C4C4;
     width: 659px;
     height: 424px;
-    border: 5px solid var(--about-border);
+    border: 5px solid var(--tile-border);
     border-radius: 7px;
 }
 

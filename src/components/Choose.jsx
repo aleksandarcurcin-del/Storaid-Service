@@ -39,7 +39,7 @@ function Choose() {
                 </div>
                 <div className="choose-right">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.</p>
-                    <div className="choose-box"></div>
+                    <div className="choose-box"><img className="storage-image" src="/images/storageimage4.jpg" alt="storage image" /></div>
                 </div>
             </div>
         </div>

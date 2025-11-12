@@ -1,9 +1,9 @@
 .tiles-box {
-    border: 3px solid var(--tile-border);
+    border: 3px solid var(--tile-border-hover);
     border-radius: 12px;
     padding: 12px;
     &:hover {
-        border: 3px solid var(--tile-border-hover);
+        border: 3px solid var(--tile-border);
         transition: color .5s ease;
     }
 }

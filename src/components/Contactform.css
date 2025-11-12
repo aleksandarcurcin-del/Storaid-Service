@@ -23,7 +23,7 @@
 input[required] {
     height: 58px;
     padding: 10px;
-    border: 1px solid #122ca3; 
+    border: 1px solid #12372A; 
     border-radius: 5px;
     outline: none;
     &:focus {
@@ -33,7 +33,7 @@ input[required] {
     }
     &:valid {
         outline: none;
-        border: 1px solid #122ca3;
+        border: 1px solid #12372A;
         background-color: #ffffff;
 
         
@@ -52,7 +52,7 @@ input[required] {
     }
 
     &::placeholder {
-    color: #122ca3;
+    color: #12372A;
     }
 
 }
@@ -60,11 +60,11 @@ input[required] {
 input {
     height: 58px;
     padding: 10px;
-    border: 1px solid #122ca3; 
+    border: 1px solid #12372A; 
     border-radius: 5px;
     outline: none;
     &::placeholder {
-        color: #122ca3;
+        color: #12372A;
     }
 }
 

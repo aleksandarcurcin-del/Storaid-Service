@@ -20,6 +20,7 @@
 
     &:hover {
         background-color: var(--button-hover);
+        border: 2px solid var(--tile-border-hover);
         h5,h6,p, li {
             color: #ffffff;
         }

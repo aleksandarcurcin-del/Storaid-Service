@@ -86,7 +86,7 @@ function Git() {
                         <h4>Get in Touch</h4>
                         <h3>Get Personalized Assistance - Contact Us</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
-                        <div className="git-box"></div>
+                        <div className="git-box"><img className="storage-image" src="/images/storageimage5.jpg" alt="storage image" /></div>
                     </div>
                     <div className="git-right">
                         <form onSubmit={handleSubmit} noValidate>

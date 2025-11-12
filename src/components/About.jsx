@@ -9,7 +9,7 @@ function About() {
         <div className="container">
             <div className="about-flex">
                 <div className="about-left">
-                    <div className="box-1"></div>
+                    <div className="box-1"><img className="storage-image" src="/images/storageimage.jpg" alt="storage image" /></div>
                     <div className="box-2">
                         <div className="box-text">
                             <div className="box-text1">

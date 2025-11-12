@@ -31,7 +31,7 @@ function Ourservices() {
                         </div>
                     </div>
                 </div>
-                <div className="ourserices-box"></div>
+                <div className="ourserices-box"><img className="storage-image" src="/images/storageimage2.jpg" alt="storage image" /></div>
                 <div className="ourservices-bottom-right">
                     <div className="ourservices-tiles-right">
                         <div className="tiles-box">
