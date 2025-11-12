@@ -32,7 +32,7 @@
     gap:17px;
     cursor:pointer;
     font-size: 16px;
-
+    color: #12372A;
     &:hover {
         background-color: var(--button-color);
         

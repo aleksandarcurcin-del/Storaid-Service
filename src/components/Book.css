@@ -1,7 +1,7 @@
 
 .book-color {
     height: 435px;
-    background-color: #12372ad8;
+    background-color: #f8f4dd;
 }
 
 .book-content {
@@ -15,21 +15,6 @@
 .book-text {
     padding: 0 160px;
     h3, p {
-        color: #FFFFFF;
-    }
-}
-
-.book-btn {
-    width: 128px;
-    height: 46px;
-    border-radius: 5px;
-    border: none;
-    background-color: var(--button-color);
-    color: #12372A;
-    transition: color .2s ease;
-    font-weight: 600;
-    &:hover {
-        background-color:var(--tile-border);
-        color: #240101;
+        color: #12372A;
     }
 }

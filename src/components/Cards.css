@@ -36,7 +36,7 @@
     }
 
     &:hover .read-more {
-        color: #4D400F;
+        color: var(--link-hover);
     }
 }
 

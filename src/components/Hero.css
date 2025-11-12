@@ -1,5 +1,5 @@
 .hero {
-    background-color: #12372ad8;
+    background-color: #f8f4dd;
 }
 
 .hero-flex {
@@ -7,22 +7,14 @@
     justify-content: space-between;
     padding-top: 150px;
     gap: 8rem;
-    h4 {
-        color: #FFFFFF;
+    h1,h4,p {
+        color: #12372A;
     }
 }
 
 .hero-btn {
     width: 160px;
     border-radius: 5px;
-    border: none;
-    background-color: var(--button-color);
-    color: #12372A;
-    transition: color .2s ease;
-    font-weight: 600;
-    &:hover {
-        background-color:var(--tile-border);
-        color: #240101;
-    }
+
 
 }
