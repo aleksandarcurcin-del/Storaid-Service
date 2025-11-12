@@ -18,11 +18,13 @@
     border: none;
 }
 
+/* har valt färgerna i min toggle som resterande av mina knappar för att jag tycker inte att man ska ha alldeles för många olika färger överallt */
+
 .accordion-toggle{
     position: relative;
     appearance:none; 
     border:0; 
-    background-color: var(--tile-border);
+    background-color: var(--link-hover);
     width:100%; 
     text-align:left; 
     padding:18px 20px;
@@ -34,7 +36,7 @@
     font-size: 16px;
     color: #ffffff;
     &:hover {
-        background-color: var(--button-color);
+        background-color: var(--button-hover);
         
     }
 }
@@ -57,12 +59,12 @@
 
 .accordion-toggle {
     &:hover {
-        background-color: #88711B;
+        background-color: var(--button-hover);
     }
 }
 
 .accordion-toggle[aria-expanded="true"] {
-    background-color: #88711B;
+    background-color: var(--button-hover);
     color: #ffffff;
 }
 

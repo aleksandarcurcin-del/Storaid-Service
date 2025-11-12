@@ -1,7 +1,7 @@
 
 .book-color {
     height: 435px;
-    background-color: #f8f4dd;
+    background-color: #f8f4ddf6; /* har valt denna nyansen (samma färg som hero och subscribe med lite högre ton) pga att jag vill att man ska se lite färgskillnad i services sidan */
 }
 
 .book-content {

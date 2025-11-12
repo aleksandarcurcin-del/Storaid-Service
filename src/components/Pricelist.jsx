@@ -18,7 +18,7 @@ function Pricelist({ title, price }) {
         >
             <h5>{title}</h5>
             <div className="prices">
-                <img className="dollar-icon" src="/images/dollaricon.svg" alt="dollar icon" />
+                <h5 className="dollar-icon">$</h5>
                 <h3>{price}</h3>
                 <h6>/month</h6>
             </div>

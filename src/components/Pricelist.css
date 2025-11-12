@@ -3,9 +3,7 @@
     border: 2px solid var(--tile-border);
     padding: 25px;
     background-color: #F1FFEA;
-    h3 {
-        color: #F1C30C;
-    }
+
 
     button {
         width: 124px;
@@ -21,7 +19,7 @@
     &:hover {
         background-color: var(--button-hover);
         border: 2px solid var(--tile-border-hover);
-        h5,h6,p, li {
+        h3,h5,h6,p, li {
             color: #ffffff;
         }
         
@@ -36,6 +34,10 @@
         }
     
 
+    }
+
+    &:hover .dollar-icon {
+        color: #F1C30C;
     }
 
     .underline {
@@ -74,7 +76,9 @@
 
 .dollar-icon {
     position: relative;
-    bottom: 40px;
+    bottom: 30px;
+    color: #4d4115;
+
 }
 
 .pricing-check {

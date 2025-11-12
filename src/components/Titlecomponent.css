@@ -1,12 +1,12 @@
 .title-component {
-    background-color: #12372A;
+    background-color: #FAF8EC;  /* valde att lägga samma bakgrund som i home sidan för finare struktur */
     height: 467px;
 }
 
 .title-component-text {
     padding-top: 9rem;
-    p {
-        color: #F1FFEA;
+    h1,p {
+        color: #12372A;
     }
 }
 
