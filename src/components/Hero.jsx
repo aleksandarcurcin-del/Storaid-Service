@@ -11,9 +11,9 @@ export default function Hero() {
       <div className="container">
         <div className="hero-flex">
           <div className="hero-left">
-            <h4 className="hero-text">Welcome to StorAid</h4>
+            <p className="hero-text">Welcome to StorAid</p>
             <h1>Space Simplified, Storage Perfected</h1>
-            <p className="p-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem fringilla sodales. Cras lobortis, libero at iaculis luctus, nisi ex pellentesque nisi, at euismod sem ipsum ac dolor.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a sem magna. Etiam ac odio sit amet lorem fringilla sodales. Cras lobortis, libero at iaculis luctus, nisi ex pellentesque nisi, at euismod sem ipsum ac dolor.</p>
             <div className="hero-btn">
               <Link to="/notfound">
                 <Buttons className="hero-btn" type="submit" text="Discover More"/>
