@@ -1,26 +1,4 @@
-.direct {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.cf-label .req {
-    margin-left: 4px;
-    color: #A1241B;
-    opacity: 0;
-    transition: opacity .15s;
-}
-.cf-label .req.show { opacity: 1; }
-
-
-
-
-
-.error {
-    color: #A1241B;
-}
-
-input[required] {
+.select-form {
     height: 58px;
     padding: 10px;
     border: 1px solid #12372A; 
@@ -51,26 +29,11 @@ input[required] {
         }
     }
 
-    &::placeholder {
+
+
+}
+
+option {
     color: #12372A;
-    }
-
 }
 
-#phonenumber {
-    height: 58px;
-    padding: 10px;
-    border: 1px solid #12372A; 
-    border-radius: 5px;
-    outline: none;
-    &::placeholder {
-        color: #12372A;
-    }
-    &:focus {
-        outline: none;
-        border: 2px solid black;
-        display: block;
-
-    }
-
-}

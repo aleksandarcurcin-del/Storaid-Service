@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Contactform from './Contactform'
 import Commentform from './Commentform'
 import Buttons from './Buttons'
+import Selectform from './Selectform'
 
 
 function Bookingunit() {
@@ -109,7 +110,7 @@ function Bookingunit() {
                                         </div>
                                     </div>
                                     <div className="direction">
-                                        <Contactform id="selectedUnit" label="Select Unit" className="input form-unit" type="selectedUnit" name="selectedUnit" value={formContent.selectedUnit} onChange={handleChange} required placeholder="Select unit" error={errors.selectedUnit} />      
+                                        <Selectform id="selectedUnit" label="Select Unit" className="input select-unit" name="selectedUnit" value={formContent.selectedUnit} onChange={handleChange} required error={errors.selectedUnit} />     
                                     </div>
                                     <div className="direction-big">
                                         <Commentform id="purpose" label="Storage purpose" name="purpose" value={formContent.purpose} onChange={handleChange} required placeholder="Describe your storage purpose so that we can match your request"  error={errors.purpose}/>
