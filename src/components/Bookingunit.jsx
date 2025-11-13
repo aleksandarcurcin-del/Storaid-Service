@@ -97,7 +97,7 @@ function Bookingunit() {
                         
                     </div>
                     <div className="booking-right">
-                        <div className="booking-box"></div>
+                        <div className="booking-box"><img className="storage-image" src="/images/storageimage15.jpg" alt="" /></div>
                         <div className="booking-background">
                             <form onSubmit={handleSubmit} noValidate>
                                 <div className="booking-form">

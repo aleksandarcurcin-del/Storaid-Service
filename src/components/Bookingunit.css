@@ -22,7 +22,7 @@
     width: 673px;
     height: 545px;
     background-color: #C4C4C4;
-    border: 5px solid var(--about-border);
+    border: 5px solid var(--tile-border);
 }
 
 .booking-right {
