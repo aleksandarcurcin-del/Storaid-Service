@@ -109,7 +109,7 @@ function Bookingunit() {
                                         </div>
                                     </div>
                                     <div className="direction">
-                                        <Contactform id="selectedUnit" label="Choose Unit" className="input form-unit" type="selectedUnit" name="selectedUnit" value={formContent.selectedUnit} onChange={handleChange} required placeholder="Choose unit" error={errors.selectedUnit} />        
+                                        <Contactform id="selectedUnit" label="Select Unit" className="input form-unit" type="selectedUnit" name="selectedUnit" value={formContent.selectedUnit} onChange={handleChange} required placeholder="Select unit" error={errors.selectedUnit} />      
                                     </div>
                                     <div className="direction-big">
                                         <Commentform id="purpose" label="Storage purpose" name="purpose" value={formContent.purpose} onChange={handleChange} required placeholder="Describe your storage purpose so that we can match your request"  error={errors.purpose}/>
