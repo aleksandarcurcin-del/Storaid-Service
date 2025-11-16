@@ -13,7 +13,7 @@ function Ratingstar({ rating }) {
         <div className="rating-stars">
             {
                 [...Array(starsFilled)].map((_, index) => (
-                    <i key={index} className="green-stars"><img src="/images/greenstar.svg" alt="" /></i>
+                    <i key={index} className="green-stars"><img src="/images/greenstar.svg" alt="green stars" /></i>
                 ))
             }
 
