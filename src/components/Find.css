@@ -1,7 +1,7 @@
 .find  {
     margin-top: 80px;
     height: 600px;
-    background-color: #12372A;
+    background-color: #12372ae7;
     
 }
 
@@ -18,12 +18,17 @@
     
 }
 
-
+.find-color {
+    background-color: #12372A;
+    height: 600px;
+    width: 664px;
+}
 
 .find-right {
     display: flex;
     flex-direction: column;
     margin: 2rem;
+
     
 }
 
