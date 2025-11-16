@@ -47,7 +47,7 @@
     
 }
 
-.header-nav a {
+.header-nav {
     text-decoration: none;
     color: var(--link);
     font-size: 18px;
