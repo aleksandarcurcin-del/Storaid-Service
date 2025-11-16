@@ -10,9 +10,12 @@ function Footer() {
           <div className="footer-flex">
             <div className="footer-left">&copy; 2025 StorAid, All rights reserved.</div>
             <div className="footer-right">
-              <img src="/images/footericon.svg" alt=""  /> Terms & Conditions
-              <img src="/images/footericon.svg" alt="" /> Privacy Policy
-
+              <a className="footer-notfound" href="/notfound">
+                <img src="/images/footericon.svg" alt=""  /> Terms & Conditions
+              </a>
+              <a className="footer-notfound" href="/notfound">
+                <img src="/images/footericon.svg" alt="" /> Privacy Policy
+              </a>
             </div>
           </div>
         </div>

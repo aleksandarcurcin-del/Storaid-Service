@@ -55,7 +55,7 @@ function About() {
                     </div>
                     <div className="about-lower">
                         <div className="about-btn">
-                            <Link to="/notfound">
+                            <Link to="/aboutus">
                                 <Buttons className="about-btn" type="submit" text="Discover More"/>
                             </Link>
                         </div>

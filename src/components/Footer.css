@@ -17,3 +17,8 @@
     text-align: center;
     gap: 10px;
 }
+
+.footer-notfound {
+    color: white;
+    text-decoration: none;
+}
