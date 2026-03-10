@@ -1,16 +1,87 @@
-# React + Vite
+StorAid – Storage Company Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern website for a fictional storage company called StorAid.
+The project focuses on building a clean user interface using React, integrating with external APIs, and following accessibility standards (WCAG 2.1).
 
-Currently, two official plugins are available:
+The application demonstrates component-based architecture, reusable UI components, form validation, API communication, and accessible design practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
 
-## Expanding the ESLint configuration
+Live Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The website includes several core sections commonly used on commercial websites:
+
+Hero Section
+
+A landing section introducing the StorAid service with a clear headline, supporting text, and call-to-action.
+
+Services
+
+Displays available storage services offered by the company.
+
+Testimonials
+
+Customer reviews are fetched dynamically from an external API and displayed with rating stars.
+
+Blog / News
+
+Blog cards with expandable descriptions allowing users to read more content without navigating away.
+
+Contact Form
+
+Users can send a message through a contact form.
+The form includes:
+
+* Client-side validation
+
+* Accessible labels and error messages
+
+* API integration
+
+Data is sent to:
+POST /api/contact
+
+
+Newsletter Subscription
+
+Users can subscribe to the newsletter via email.
+POST /api/subscribe
+
+The form includes validation and a confirmation message upon successful submission.
+
+
+Accessibility
+
+The project follows WCAG 2.1 accessibility principles, including:
+
+* Proper semantic HTML structure
+
+* Correct heading hierarchy
+
+* Accessible form labels
+
+* Keyboard navigation support
+
+* Sufficient color contrast
+
+* ARIA attributes for interactive components
+
+* Visible focus states
+
+  
+
+Technologies Used
+
+* React
+
+* JavaScript (ES6+)
+
+* CSS
+
+* HTML5
+
+* REST API integration
+
+* Google Fonts (Inter)
+
